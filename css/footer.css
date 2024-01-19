@@ -1,0 +1,13 @@
+.NexaInformation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.NexaInformation h2 {
+    color: #dddddd;
+}

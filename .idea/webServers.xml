@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="20141d64-d105-4e9b-b8d2-ccb7d850cf2b" name="nexa.nocly.fr" url="https://nexa.nocly.fr">
+        <fileTransfer accessType="SFTP" host="nocly.fr" port="22" sshConfigId="d59c3f60-4e65-4559-9c13-5e0dc9cf6fef" sshConfig="nocly@nocly.fr:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

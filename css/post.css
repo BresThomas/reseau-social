@@ -1,0 +1,193 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-body a {
+    text-decoration: none; /* Pour supprimer le soulignement */
+    color: #000; /* Choisir la couleur du texte que vous souhaitez */
+}
+
+.post-body {
+    margin: 0;
+    padding: 0;
+}
+
+.post-body .main-content {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 3.7em);
+}
+
+.post-body .right-panel {
+    flex: 3;
+    padding: 1em;
+    overflow-y: auto;
+}
+
+.post-body .post {
+    background-color: #f9f9f9;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 3em;
+    box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.1);
+}
+
+.post-body .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.post-body .post-pp {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.post-body .post-username {
+    font-weight: bold;
+}
+
+
+.post-body .post-divider {
+    margin-bottom: 1em;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.post-body .post-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.post-body .post-image {
+    max-width: 65vw;
+    max-height: 65vh;
+}
+
+.afficherpost .post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.afficherpost .post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.afficherpost .post p {
+    font-size: 16px;
+}
+.afficherpost .post-header {
+     display: flex;
+     align-items: center;
+     margin-bottom: 1em;
+ }
+
+.afficherpost .post-pp {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.afficherpost .post-username {
+    font-weight: bold;
+}
+
+.afficherpost .post-divider {
+    margin-bottom: 1em;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.afficherpost .post-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.afficherpost .post-image {
+    max-width: 65vw;
+    max-height: 65vh;
+}
+
+.afficherpost .post-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.afficherpost .post-action {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.afficherpost .post-action:hover {
+    transform: scale(1.1);
+}
+
+.afficherpost .moderator-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.afficherpost .moderator-panel {
+    margin-top: 20px;
+}
+
+.afficherpost .post-action.like {
+    color: #ccc;
+    /* Couleur par défaut du cœur (gris) */
+}
+
+.afficherpost .post-action.like.liked {
+    color: red;
+    /* Couleur du cœur lorsqu'il est 'liké' */
+}
+
+.afficherpost .comment {
+    font-size: 0.9rem;
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.afficherpost .comment-username {
+    font-weight: bold;
+}
+
+.afficherpost .comment-time {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.afficherpost .comments-container {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    /* Vous pouvez ajuster la taille de la police des commentaires ici */
+}
+
+.afficherpost .comment-banner {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    /* Couleur de fond de la bannière des commentaires */
+    color: #333;
+    /* Couleur du texte de la bannière des commentaires */
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+    /* Taille de la police de la bannière des commentaires */
+    border-top: 1px solid #ddd;
+    /* Bordure supérieure de la bannière des commentaires */
+}
+
+.afficherpost .comment-content {
+    margin: 0;
+}

@@ -1,0 +1,297 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    -ms-scrollbar-shadow-color: #003c57;
+}
+
+
+
+.ChangementMDP-body .button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ChangementMDP-body .button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.ChangementMDP-body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #545454;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg,#003c57,#007198,#007198,#003c57);
+    background-size: 300% 300%;
+    animation: color 8s ease-in-out infinite;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.ChangementMDP-body .accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    padding:  2rem 0;
+
+}
+
+
+.ChangementMDP-body form h3{
+    text-align: center;
+    padding: 2%;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 225%;
+}
+
+.ChangementMDP-body .contentExplainForm{
+    color: #ffffff;
+    margin-bottom: 4vh;
+}
+
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 50% 0%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+
+}
+
+.ChangementMDP-body .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.ChangementMDP-body .logo-nexa {
+    max-width: 12vw;
+    transform: translateX(-5px);
+}
+
+
+.ChangementMDP-body .accueil form {
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 25px 23px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    /*-webkit-box-shadow: 0px 25px 23px rgba(0, 0, 0, 0.15);*/
+    border: 1.5px solid rgba(255, 255, 255, 0.06);
+    padding: 2% 6% ;
+
+}
+
+.ChangementMDP-body .field {
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ChangementMDP-body label {
+    color: #dcdcdc;
+    font-size: 100%;
+}
+
+.ChangementMDP-body .field input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 17vw;
+}
+
+.ChangementMDP-body .field-email {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ChangementMDP-body .inscription-connexion-button-container {
+    text-align: center;
+}
+
+.ChangementMDP-body .switch {
+    --switch_width: 2em;
+    --switch_height: 1em;
+    --thumb_color: #e8e8e8;
+    --track_color: #e8e8e8;
+    --track_active_color: #888;
+    --outline_color: #000;
+    font-size: 17px;
+    position: absolute;
+    right: 7px;
+    display: inline-block;
+    width: var(--switch_width);
+    height: var(--switch_height);
+}
+
+.ChangementMDP-body .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.ChangementMDP-body .slider {
+    box-sizing: border-box;
+    border: 2px solid var(--outline_color);
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--track_color);
+    transition: .15s;
+    border-radius: var(--switch_height);
+}
+
+.ChangementMDP-body .slider:before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    height: var(--switch_height);
+    width: var(--switch_height);
+    border: 2px solid var(--outline_color);
+    border-radius: 100%;
+    left: -2px;
+    bottom: -2px;
+    background-color: var(--thumb_color);
+    transform: translateY(-0.2em);
+    box-shadow: 0 0.2em 0 var(--outline_color);
+    transition: .15s;
+}
+
+.ChangementMDP-body input:checked + .slider {
+    background-color: var(--track_active_color);
+}
+
+.ChangementMDP-body input:focus-visible + .slider {
+    box-shadow: 0 0 0 2px var(--track_active_color);
+}
+
+.ChangementMDP-body input:hover + .slider:before {
+    transform: translateY(-0.3em);
+    box-shadow: 0 0.3em 0 var(--outline_color);
+}
+
+.ChangementMDP-body input:checked + .slider:before {
+    transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.2em);
+}
+
+.ChangementMDP-body input:hover:checked + .slider:before {
+    transform: translateX(calc(var(--switch_width) - var(--switch_height))) translateY(-0.3em);
+    box-shadow: 0 0.3em 0 var(--outline_color);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .ChangementMDP-body .accueil{
+        width: 100%;
+        padding:  2rem 0;
+    }
+
+    .ChangementMDP-body .field input {
+        width: 100%;
+    }
+
+    .ChangementMDP-body .field {
+        margin-bottom: 8%;
+    }
+
+    .ChangementMDP-body .field-email {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .ChangementMDP-body .forgotPwd{
+        color: #dcdcdc;
+        text-decoration: none;
+    }
+
+    .ChangementMDP-body .inscription-connexion-button-container {
+        text-align: center;
+    }
+
+    .ChangementMDP-body .head {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ChangementMDP-body .logo-nexa {
+        max-width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .ChangementMDP-body .accueil{
+        width: 100%;
+        padding:  2rem 0;
+    }
+
+    .ChangementMDP-body .field input {
+        width: 100%;
+    }
+
+    .ChangementMDP-body .field {
+        margin-bottom: 8%;
+    }
+
+    .ChangementMDP-body .field-email {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .ChangementMDP-body .forgotPwd{
+        color: #dcdcdc;
+        text-decoration: none;
+    }
+
+    .ChangementMDP-body .inscription-connexion-button-container {
+        text-align: center;
+    }
+
+    .ChangementMDP-body .head {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ChangementMDP-body .logo-nexa {
+        max-width: 100px;
+    }
+}
+

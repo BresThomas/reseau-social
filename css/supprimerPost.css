@@ -1,0 +1,136 @@
+/* Réinitialisation des marges et des rembourrages pour une mise en page cohérente */
+
+a {
+    text-decoration: none; /* Pour supprimer le soulignement */
+    color: #000; /* Choisir la couleur du texte que vous souhaitez */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styles pour la barre de navigation (header) */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.logout {
+    margin-left: 1em;
+}
+
+.button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.post-pp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Styles pour le contenu principal */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-username {
+    margin-left: 10px;
+}
+
+.post-divider {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.post-content {
+    margin: 10px 0;
+}
+
+.post-image {
+    max-width: 100%;
+}
+
+.suppform {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.suppform h1 {
+    font-size: 18px;
+}
+
+.suppform label {
+    margin-right: 10px;
+}
+
+/* Styles pour la section des commentaires */
+.comments {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.comments h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

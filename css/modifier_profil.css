@@ -1,0 +1,111 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modif-profil a {
+    text-decoration: none; /* Pour supprimer le soulignement */
+    color: #000; /* Choisir la couleur du texte que vous souhaitez */
+}
+.modif-profil {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modif-profil header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.modif-profil main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.modif-profil .profile-info {
+    text-align: center;
+}
+
+.modif-profil .pp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.modif-profil .profile-edit {
+    margin-top: 20px;
+}
+
+.modif-profil h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.modif-profil form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modif-profil label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modif-profil input[type="file"] {
+    margin-top: 5px;
+}
+
+.modif-profil textarea {
+    height: 100px;
+    margin-top: 5px;
+}
+
+.modif-profil input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modif-profil .profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modif-profil .profile-info {
+    flex: 1;
+    text-align: center;
+}
+
+.modif-profil .pp{
+    max-height: 20vh;
+}
+
+.modif-profil .profile-info img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.modif-profil .profile-info h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.modif-profil .profile-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
